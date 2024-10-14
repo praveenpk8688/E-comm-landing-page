@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    gap: 30rem;
+    text-align: center;
+    background-color: rgb(56, 57, 57);
+    border-radius: 10px;
+    
+  }
+  
+.single-product{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px;
+    gap: 15px;
+
+}
+.img-container{
+    display: flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    align-items: end;
+    /* margin: 5rem;    */
+    margin-right: 200px;
+    margin-top: -340px;
+    
+    
+}
+.single-img{
+    width: 450px;
+}
+h1{
+    margin-top: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* border-bottom: 2px solid; */
+    /* width: 340px; */
+    font-size: 80PX;
+}
+.desc{
+    font-size: x-large;
+    margin-top: 20px;
+}
+.price{
+    font-size: 40px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.stock{
+    font-size: x-large;
+}
+.buy-now{
+    width: 190px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 9px;
+    cursor:pointer
+}

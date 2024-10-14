@@ -1,0 +1,175 @@
+.navbar{
+    display: flex;
+    gap: 30rem;
+    text-align: center;
+    background-color: rgb(56, 57, 57);
+    border-radius: 10px;
+    
+  }
+  ul{
+    display: flex;
+    margin: 10px;
+    gap: 110px;
+    margin-top: 30px;
+    list-style: none;
+
+  }
+  li:hover{
+    scale: 1.6;
+    transition:ease-in-out 0.3s;
+    
+
+  }
+  li a{
+    font-size: 23px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .logo{
+    margin-top: -20px;
+    margin-left: 160px;
+    width: 170px;
+    animation: App-logo-spin infinite 5s linear;
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotatey(0deg);
+    }
+    to {
+      transform: rotatey(360deg);
+    }
+  
+  }
+  
+    
+  .link-Epro{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+    /* padding-left: 55px; */
+    padding: 5px;
+    margin-left: 70px;
+    /* margin-top: 200px; */
+    border: 1px solid;
+    background-color: #ace493;
+    border-radius: 10px;
+  }
+  .link-Epro:hover{
+    scale: 1.1;
+    transition:ease-in-out 0.3s;
+  }
+.stock,.stockCount{
+    margin-bottom: 20px;
+}
+  pre{
+    font-size: 20px;
+    font-weight: 700;
+    
+  }
+  .cat-main{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 4px solid;
+    width: 140px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  #Tv{
+    border-bottom: 4px solid;
+    width: 40px;
+    
+  }
+  
+  
+    
+  /* -------------------------------Mobile------------------------------------ */
+  /* .main{ */
+    /* display:flex; */
+    /* justify-content: space-between; */
+  
+  /* } */
+  .container{
+    display: flex;
+    margin-right: 25px;
+    /* width: 0px; */
+    gap: 5px;
+    /* border: 3px solid;   */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+  
+  }
+  /* .container1{ 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    border: 2px solid;
+  } */
+  .container-main{
+    
+    padding:20px;
+    display: flex;
+    margin-left: 70px;  
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #fff;
+
+    
+  }
+  .container-main:hover{
+    scale: 1.1;
+    transition:ease-in-out 0.3s;
+    box-shadow: 1px 9px 30px;
+
+  }
+  img{
+    width: 200px;
+    
+  }
+  img:hover{
+    scale: 1.1;
+    transition:ease-in-out 0.3s;
+  }
+  .brand{
+  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .link-Epro{
+    text-decoration: none;
+    
+  }
+  .discount{
+    background-color: #de7d67;
+    width: 150px;
+    height: 24px;
+    position: relative;
+    top: -7px;
+    left: -120px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: aliceblue;
+    font-weight:500;
+    
+  }
+  .desc1{
+    font-size: 19px;
+  }
+
+  .discount{
+    animation: jump-shaking 1s infinite;
+  }
+  @keyframes jump-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateY(-9px) }
+    35% { transform: translateY(-9px) rotate(17deg) }
+    55% { transform: translateY(-9px) rotate(-17deg) }
+    65% { transform: translateY(-9px) rotate(17deg) }
+    75% { transform: translateY(-9px) rotate(-17deg) }
+    100% { transform: translateY(0) rotate(0) }
+  }
+  
